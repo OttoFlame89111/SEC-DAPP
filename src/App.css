@@ -28,6 +28,59 @@
   color: #61dafb;
 }
 
+.App-orange{
+  background-color: #ffb001;
+}
+
+.Container1{
+  height: 56px;
+  z-index: 9;
+  position: sticky;
+  top:0;
+}
+
+.App-Button1{
+  background-image: url("./img/NavButton1.png");
+  width: 158px;
+  height: 36px;
+}
+
+.App-Button2{
+  background-image: url("./img/NavButton2.png");
+  width: 158px;
+  height: 36px;
+}
+
+.App-Button3{
+  background-image: url("./img/NavButton3.png");
+  width: 158px;
+  height: 36px;
+}
+
+.App-Button4{
+  background-image: url("./img/NavButton4.png");
+  width: 158px;
+  height: 36px;
+}
+
+.App-Button5{
+  background-image: url("./img/NavButton5.png");
+  width: 158px;
+  height: 36px;
+}
+
+.App-Button6{
+  background-image: url("./img/NavButton6.png");
+  width: 195px;
+  height: 42px;
+}
+
+.App-Button7{
+  background-image: url("./img/NavButton7.png");
+  width: 149px;
+  height: 42px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
