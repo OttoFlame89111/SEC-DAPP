@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'MFinance';
+  font-family: MFinance;
   src: url('../ttf/MFinanceHK-Bold.ttf');
 }
 
@@ -7,22 +7,22 @@
   font-family: MFinance;
 }
 
-.App {
+.NavBar {
   text-align: center;
 }
 
-.App-logo {
+.NavBar-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .NavBar-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.NavBar-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -33,11 +33,11 @@
   color: white;
 }
 
-.App-link {
+.NavBar-link {
   color: #61dafb;
 }
 
-.App-orange{
+.NavBar-orange{
   background-color: #ffb001;
 }
 
@@ -48,43 +48,43 @@
   top:0;
 }
 
-.App-Button1{
+.NavBar-Button1{
   background-image: url("./img/NavButton1.png");
   width: 158px;
   height: 36px;
 }
 
-.App-Button2{
+.NavBar-Button2{
   background-image: url("./img/NavButton2.png");
   width: 158px;
   height: 36px;
 }
 
-.App-Button3{
+.NavBar-Button3{
   background-image: url("./img/NavButton3.png");
   width: 158px;
   height: 36px;
 }
 
-.App-Button4{
+.NavBar-Button4{
   background-image: url("./img/NavButton4.png");
   width: 158px;
   height: 36px;
 }
 
-.App-Button5{
+.NavBar-Button5{
   background-image: url("./img/NavButton5.png");
   width: 158px;
   height: 36px;
 }
 
-.App-Button6{
+.NavBar-Button6{
   background-image: url("./img/NavButton6.png");
   width: 195px;
   height: 42px;
 }
 
-.App-Button7{
+.NavBar-Button7{
   background-image: url("./img/NavButton7.png");
   width: 149px;
   height: 42px;

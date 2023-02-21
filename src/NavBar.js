@@ -1,30 +1,30 @@
 //import logo from './logo.svg';
-import './App.css';
+import './NavBar.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 
-function App() {
+function NavBar() {
   return (
     <div className='Container1'>
-    <Navbar className="App-orange" expand="lg">
+    <Navbar className="NavBar-orange" expand="lg">
     <Container>
       <Navbar.Brand href="#home">流浪區塊</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="" className="App-Button1"/>
-          <Nav.Link href="" className="App-Button2"/>
-          <Nav.Link href="" className="App-Button3"/>
-          <Nav.Link href="" className="App-Button4"/>
-          <Nav.Link href="" className="App-Button5"/>
+          <Nav.Link href="" className="NavBar-Button1"/>
+          <Nav.Link href="" className="NavBar-Button2"/>
+          <Nav.Link href="" className="NavBar-Button3"/>
+          <Nav.Link href="" className="NavBar-Button4"/>
+          <Nav.Link href="" className="NavBar-Button5"/>
         </Nav>
       </Navbar.Collapse>
     </Container>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="" className="App-Button6"/>
-          <Nav.Link href="" className="App-Button7"/>
+          <Nav.Link href="" className="NavBar-Button6"/>
+          <Nav.Link href="" className="NavBar-Button7"/>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
@@ -32,5 +32,5 @@ function App() {
   );
 
 }
-//<SwiftSlider data={data} enableNextAndPrev={false} width={480}/>
-export default App;
+
+export default NavBar;
