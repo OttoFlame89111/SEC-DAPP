@@ -9,7 +9,7 @@ function App() {
     <div className='Container1'>
     <Navbar className="App-orange" expand="lg">
     <Container>
-      <Navbar.Brand href="#home"><font face="MFinance-HK-Bold">流浪區塊</font></Navbar.Brand>
+      <Navbar.Brand href="#home">流浪區塊</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
