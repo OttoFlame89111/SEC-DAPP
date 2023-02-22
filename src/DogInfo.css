@@ -31,7 +31,7 @@
 	background-repeat: no-repeat;
 	height: 334px;
 	width: 22%;
-	margin-left: 50px;
+	margin-left: 3.4%;
 	display:inline-block;
 }
 
@@ -41,7 +41,7 @@
 	background-repeat: no-repeat;
 	height: 334px;
 	width: 22%;
-	margin-left: 25px;
+	margin-left: 1.7%;
 	display:inline-block;
 }
 
@@ -51,7 +51,7 @@
 	background-repeat: no-repeat;
 	height: 334px;
 	width: 22%;
-	margin-left: 25px;
+	margin-left: 1.7%;
 	display:inline-block;
 }
 
@@ -61,7 +61,8 @@
 	background-repeat: no-repeat;
 	height: 334px;
 	width: 22%;
-	margin-left: 25px;
+	margin-left: 1.7%;
+	margin-right: 3.4%;
 	display:inline-block;
 }
 
