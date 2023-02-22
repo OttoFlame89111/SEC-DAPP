@@ -1,4 +1,104 @@
-.Container{
+.Container3{
+	background-image: url('./img/Container3_background.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 695px;
+	width: 100%;
 	z-index: 8;
 	position: relative;
+}
+
+.Container3-title{
+	font-size: 52px;
+	color: #90cae0;
+	vertical-align: middle;
+}
+
+.Container3-text{
+	margin-left: 20px;
+	font-size: 34px;
+	color: #ffb001;
+	vertical-align: middle;
+}
+
+.Container3-Picture{
+	margin-top: 50px;
+}
+
+.Container3-pic1{
+	background-image: url('./img/DogInfoImg1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 334px;
+	width: 22%;
+	margin-left: 50px;
+	display:inline-block;
+}
+
+.Container3-pic2{
+	background-image: url('./img/DogInfoImg2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 334px;
+	width: 22%;
+	margin-left: 25px;
+	display:inline-block;
+}
+
+.Container3-pic3{
+	background-image: url('./img/DogInfoImg3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 334px;
+	width: 22%;
+	margin-left: 25px;
+	display:inline-block;
+}
+
+.Container3-pic4{
+	background-image: url('./img/DogInfoImg4.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 334px;
+	width: 22%;
+	margin-left: 25px;
+	display:inline-block;
+}
+
+.Container3-bottom{
+	margin-top: 50px;
+}
+
+.Container3-rightArrow{
+	background-image: url('./img/RightArrow.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 11%;
+	height: 135px;
+	width: 27%;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.Container3-button{
+	background-image: url('./img/Container3_button.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 2%;
+	height: 56px;
+	width: 18%;
+	display:inline-block;
+	border: none;
+	vertical-align: middle;
+}
+
+.Container3-leftArrow{
+	background-image: url('./img/LeftArrow.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 2%;
+	height: 135px;
+	width: 27%;
+	display:inline-block;
+	vertical-align: middle;
 }
