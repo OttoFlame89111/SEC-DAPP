@@ -79,6 +79,15 @@
 	width: 27%;
 	display:inline-block;
 	vertical-align: middle;
+	animation: infinite;
+	animation-name: rightArrow;
+	animation-duration: 1s;
+}
+
+@keyframes rightArrow{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
 }
 
 .Container3-button{
@@ -102,4 +111,13 @@
 	width: 27%;
 	display:inline-block;
 	vertical-align: middle;
+	animation: infinite;
+	animation-name: leftArrow;
+	animation-duration: 1s;
+}
+
+@keyframes leftArrow{
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}
 }

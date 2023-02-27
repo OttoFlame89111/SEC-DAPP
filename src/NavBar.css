@@ -48,34 +48,48 @@
   top:0;
 }
 
+.Button-Container{
+  margin:auto;
+}
+
 .NavBar-Button1{
-  background-image: url("./img/NavButton1.png");
-  width: 158px;
-  height: 36px;
+  text-decoration:none;
+  color: white;
+  font-size: 34px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .NavBar-Button2{
-  background-image: url("./img/NavButton2.png");
-  width: 158px;
-  height: 36px;
+  text-decoration:none;
+  color: white;
+  font-size: 34px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .NavBar-Button3{
-  background-image: url("./img/NavButton3.png");
-  width: 158px;
-  height: 36px;
+  text-decoration:none;
+  color: white;
+  font-size: 34px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .NavBar-Button4{
-  background-image: url("./img/NavButton4.png");
-  width: 158px;
-  height: 36px;
+  text-decoration:none;
+  color: white;
+  font-size: 34px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .NavBar-Button5{
-  background-image: url("./img/NavButton5.png");
-  width: 158px;
-  height: 36px;
+  text-decoration:none;
+  color: white;
+  font-size: 34px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .NavBar-Button6{
@@ -88,6 +102,7 @@
   background-image: url("./img/NavButton7.png");
   width: 149px;
   height: 42px;
+  border: none;
 }
 
 @keyframes App-logo-spin {

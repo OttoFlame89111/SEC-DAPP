@@ -2,13 +2,17 @@
 import './DogInfo.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
+import { Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
-function DogInfo() {
-  return (
+function DogInfo () {
+  useTranslation();
+    return(
     <div className='Container3'>
-    	<span className='Container3-title'>浪浪特寫照</span>
+    	<span className='Container3-title'>
+        <Trans i18nKey='description.container3_title'/></span>
       <span className='Container3-text'>如果可以收藏我們資助我們資助吧~</span>
-      <br/>{/*換行*/}
+      <br/>
       <div className='Container3-Picture'>
         <div className='Container3-pic1'/>
         <div className='Container3-pic2'/>
@@ -21,6 +25,7 @@ function DogInfo() {
         <div className='Container3-leftArrow'/>
       </div>
     </div>
-  );
+    );
 }
+
 export default DogInfo;

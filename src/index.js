@@ -1,17 +1,14 @@
 import React, {StrictMode} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import NavBar from './NavBar';
-import Slider from './Slider';
-import DogInfo from './DogInfo';
 import reportWebVitals from './reportWebVitals';
+import './i18n';
+import App from "./App";
 
 const index = ReactDOM.createRoot(document.getElementById('root'));
 index.render(
   <StrictMode>
-    <NavBar/>
-    <Slider/>
-    <DogInfo/>
+    <App/>
   </StrictMode>,
   document.getElementById('root')
 );
