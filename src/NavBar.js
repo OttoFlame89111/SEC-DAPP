@@ -25,7 +25,7 @@ class NavBar extends React.Component {
   
   render() {
     return (
-      <div>
+      <div className="Container1">
         <Navbar className="NavBar-orange" expand="lg">
         <Container>
           <Navbar.Brand href="#home">流浪區塊</Navbar.Brand>

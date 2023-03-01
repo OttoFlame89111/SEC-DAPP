@@ -11,7 +11,8 @@ function DogInfo () {
     <div className='Container3'>
     	<span className='Container3-title'>
         <Trans i18nKey='description.container3_title'/></span>
-      <span className='Container3-text'>如果可以收藏我們資助我們資助吧~</span>
+      <span className='Container3-text'>
+        <Trans i18nKey='description.container3_text'/></span>
       <br/>
       <div className='Container3-Picture'>
         <div className='Container3-pic1'/>
