@@ -1,11 +1,9 @@
 import React from "react";
-import {Trans} from "react-i18next";
-import i18n from 'i18next'
-import "./NavBar.css"
-import {Navbar, Nav, Container} from 'react-bootstrap';
+import "./NavBar.css";
 import NavBar from './NavBar';
 import Slider from './Slider';
 import DogInfo from './DogInfo';
+import DogAct from "./DogAct";
 
 function App(){
 	return(
@@ -13,6 +11,7 @@ function App(){
 			<NavBar/>
 			<Slider/>
 			<DogInfo/>
+			<DogAct/>
 		</div>
 	);
 }

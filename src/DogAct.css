@@ -1,0 +1,31 @@
+.Container4{
+	background-image: url("./img/Container4_background.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 624px;
+	width: 100%;
+}
+
+.Container4-title{
+	background-image: url("./img/Container4_title.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 60%;
+	/*display: inline-block;*/
+}
+
+.Container4-text{
+	font-size: 30px;
+	width: 60%;
+	display: inline-block;
+}
+
+.Container4-picture{
+	background-image: url("./img/Container4_pic.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 510px;
+	width: 40%;
+	display: inline-block;
+}
