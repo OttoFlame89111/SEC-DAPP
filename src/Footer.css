@@ -1,0 +1,17 @@
+.Container6{
+	background-image: url("./img/Container6_background.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 107px;
+}
+
+.Container6-text{
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+	/*請華夏同學從這裡開始進行RWD的排版*/
+}

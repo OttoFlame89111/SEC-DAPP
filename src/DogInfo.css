@@ -121,3 +121,7 @@
 	50%{opacity:0;}
 	100%{opacity:1;}
 }
+
+@media only screen and (max-width: 767px) {
+	/*請華夏同學從這裡開始進行RWD的排版*/
+}

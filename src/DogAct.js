@@ -5,11 +5,9 @@ import React from 'react';
 function DogAct(){
 	return(
 		<div className="Container4">
-			<div className="Container4-title">
-				
-			</div>
-			<div className="Container4-text">
-				Lorern lpsum is simply dummy text of the printing and typeset-
+			<div className="Container4-title"></div>
+			<div className="Container4-center">
+				<span className="Container4-text">Lorern lpsum is simply dummy text of the printing and typeset-
 				ting industry. Lorern lpsum has been the industry's standard
 				dummy text ever since the 1500s, when an unknown printer
 				took a galley of type and scrambled it to make a type speci-
@@ -19,9 +17,8 @@ function DogAct(){
 				Letraset sheets containing Lorern lpsum passages, and more 
 				recently with desktop publishing software like Aldus Page-
 				Maker including versions of Lorern lpsum.
-			</div>
-			<div className="Container4-picture">
-
+				</span>
+				<div className="Container4-picture"></div>
 			</div>
 		</div>
 	);
