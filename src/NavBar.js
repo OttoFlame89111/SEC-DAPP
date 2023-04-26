@@ -36,7 +36,7 @@ class NavBar extends React.Component {
                 <Trans i18nKey='description.navbar1'/></a>
               <a href="#" className='NavBar-Button2'>
                 <Trans i18nKey='description.navbar2'/></a>
-              <a href="#" className='NavBar-Button3'>
+              <a href="../public/online.html" className='NavBar-Button3'>
                 <Trans i18nKey='description.navbar3'/></a>
               <a href="#" className='NavBar-Button4'>
                 <Trans i18nKey='description.navbar4'/></a>

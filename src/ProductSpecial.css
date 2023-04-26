@@ -70,4 +70,76 @@
 
 @media only screen and (max-width: 767px) {
 	/*請華夏同學從這裡開始進行RWD的排版*/
+	.Container5{
+		background-image: url("./img/Container5_background.gif");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 1448px;
+	}
+	
+
+
+	.Container5-text{
+		font-size: 15px;
+		width: 100%;
+		margin-left: 3%;
+		display: block;
+	}
+
+	.Container5-picture{
+		background-image: url("./img/Container5_picture4.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 40%;
+		height: 40%;
+		display: block;
+		margin-top: -50px;
+		margin-left: 100px;
+	}
+
+	.Container5-pic2{
+		background-image: url("./img/Container5_picture2.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 25%;
+		height: 100%;
+		display: block;
+		margin-left: 130px;
+		margin-top: -330px;
+	}
+
+	.Container5-pic3{
+		background-image: url("./img/Container5_picture3.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 25%;
+		height: 100%;
+		margin-left: 130px;
+		margin-top: -330px;
+		display: block;
+	}
+
+	.Container5-pic1{
+		background-image: url("./img/Container5_picture1.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-left: 20%;
+		width: 25%;
+		height: 100%;
+		margin-left: 130px;
+		margin-top: -170px;
+		display: block;
+	}
+
+	.Container5-bottom{
+		margin: 5%;
+		height: 40%;
+
+	}
+	
 }

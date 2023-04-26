@@ -116,4 +116,63 @@
 
 @media only screen and (max-width: 767px) {
   /*請華夏同學從這裡開始進行RWD的排版(先從這開始)*/
+  .NavBar-Button1{
+    text-decoration:none;
+    color: white;
+    font-size: 34px;
+    vertical-align: middle;
+    margin-left: 10px;
+    
+  }
+  
+  .NavBar-Button2{
+    text-decoration:none;
+    color: white;
+    font-size: 34px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .NavBar-Button3{
+    text-decoration:none;
+    color: white;
+    font-size: 34px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .NavBar-Button4{
+    text-decoration:none;
+    color: white;
+    font-size: 34px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .NavBar-Button5{
+    text-decoration:none;
+    color: white;
+    font-size: 34px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .NavBar-Button6{
+    background-image: url("./img/NavButton6.png");
+    width: 195px;
+    height: 42px;
+    margin-top: 20px;
+  }
+  
+  .NavBar-Button7{
+    background-image: url("./img/NavButton7.png");
+    width: 149px;
+    height: 42px;
+    border: none;
+    margin-top: 20px;
+  }
 }

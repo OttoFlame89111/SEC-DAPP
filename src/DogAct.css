@@ -40,6 +40,82 @@
 	display: inline-block;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 767px) {
 	/*請華夏同學從這裡開始進行RWD的排版*/
+	.Container4{
+		background-image: url("./img/Container4_background.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 600px;
+		width: 100%;
+	}
+	
+	.Container4-title{
+		background-image: url("./img/Container4_title.gif");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 60%;
+		height: 20%;
+		margin-left: 20%;
+		margin-bottom: -10px;
+		display: block;
+	}
+	
+	.Container4-center{
+		width: 100%;
+		height: 80%;
+	}
+	
+	.Container4-text{
+		font-size: 15px;
+		width: 100%;
+		margin-left: 1.5%;
+		display: inline-block;
+	}
+	
+	.Container4-picture{
+		background-image: url("./img/Container4_pic.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 50%;
+		height: 100%;
+		display: block;
+		margin-left: 110px;
+		margin-top: -140px;
+	}
 }

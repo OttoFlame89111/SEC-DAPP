@@ -6,10 +6,11 @@
 	width: 100%;
 	z-index: 8;
 	position: relative;
+	font-size: 34px;
 }
 
 .Container3-title{
-	font-size: 52px;
+	font-size: 1.4em;
 	color: #90cae0;
 	vertical-align: middle;
 }
@@ -123,5 +124,77 @@
 }
 
 @media only screen and (max-width: 767px) {
+
 	/*請華夏同學從這裡開始進行RWD的排版*/
+	.Container3{
+		background-image: url('./img/Container3_background.png');
+		background-size: 50% 50%;
+		background-repeat: no-repeat;
+		height: 600px;
+		width: 100%;
+		position: relative;
+		
+	}
+
+
+	.Container3-title{
+		font-size: 1em;
+		color: #90cae0;
+		text-align: center;
+		display: block;
+		margin-top: 10px;
+	}
+
+	.Container3-text{
+		margin-left: 40px;
+		font-size: 0.6em;
+		color: #ffb001;
+		vertical-align: middle;
+	}
+	
+	.Container3-pic1{
+		background-image: url('./img/DogInfoImg1.png');
+		background-size: 100% 50%;
+		background-repeat: no-repeat;
+		height: 334px;
+		width: 44%;
+		margin-left: 4%;
+		display:inline-block;
+		
+	}
+	
+	.Container3-pic2{
+		background-image: url('./img/DogInfoImg2.png');
+		background-size: 100% 50%;
+		background-repeat: no-repeat;
+		height: 334px;
+		width: 44%;
+		margin-left: 3.4%;
+		display:inline-block;
+	}
+	
+	.Container3-pic3{
+		background-image: url('./img/DogInfoImg3.png');
+		background-size: 100% 50%;
+		background-repeat: no-repeat;
+		height: 334px;
+		width: 44%;
+		margin-left: 4%;
+		vertical-align: middle;
+		display:inline-block;
+		margin-top: -150px;
+	}
+	
+	.Container3-pic4{
+		background-image: url('./img/DogInfoImg4.png');
+		background-size: 100% 50%;;
+		background-repeat: no-repeat;
+		height: 334px;
+		width: 44%;
+		margin-left: 3.4%;
+		vertical-align: middle;
+		display:inline-block;
+		margin-top: -150px;
+	}
+
 }
