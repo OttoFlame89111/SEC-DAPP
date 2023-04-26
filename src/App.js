@@ -1,23 +1,45 @@
 import React from "react";
 import "./NavBar.css";
-import NavBar from './NavBar';
-import Slider from './Slider';
-import DogInfo from './DogInfo';
-import DogAct from "./DogAct";
-import ProductSpecial from "./ProductSpecial";
-import Footer from "./Footer";
+import Home from "./views/home";
+import Owner from "./views/owner";
+import Addpet from "./views/addpet";
+import Layout from "./components/Layout";
+import { HashRouter as Router, useRoutes } from "react-router-dom";
 
-function App(){
-	return(
-		<div>
-			<NavBar/>
-			<Slider/>
-			<DogInfo/>
-			<DogAct/>
-			<ProductSpecial/>
-			<Footer/>
-		</div>
-	);
+
+const GetRoutes = () => {
+  const routes = useRoutes([
+    {
+      path: "/",
+      element: <Layout></Layout>,
+      children: [
+        {
+          path: "",
+          element: <Home></Home>,
+        },
+        {
+          path: "/owner",
+          element: <Owner></Owner>,
+        },
+        {
+          path: "/addpet",
+          element: <Addpet></Addpet>,
+        },
+      ],
+    },
+  ]);
+
+  return routes;
+};
+
+function App() {
+  return (
+    <Router>
+      <GetRoutes />
+    </Router>
+  );
 }
+
+
 
 export default App;
