@@ -26,7 +26,7 @@ function Owner() {
       <img src={require('../../img/ownerbanner.jpg')} style={{ width: "100%" }} alt=""></img>
       <div className={styles["content"]}>
         <button className={styles["button"]}>
-          譅養計畫
+          認養計畫
         </button>
         <div className={styles["f1"]}>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from
@@ -41,17 +41,17 @@ function Owner() {
             </button>
             <div style={{ display: "flex", alignItems: "center", marginTop: 10, justifyContent: "center" }}>
               <img src={require('../../img/zhang.jpg')} style={{ height: 40, marginRight: 10 }} alt=""></img>
-              <span>類別：</span>
+              <span>類別:</span>
               <img src={require('../../img/dropdown.jpg')} style={{ height: 40, marginLeft: 10 }} alt=""></img>
             </div>
             <div style={{ display: "flex", alignItems: "center", marginTop: 10 }}>
               <img src={require('../../img/zhang.jpg')} style={{ height: 40, marginRight: 10 }} alt=""></img>
-              <span>种类:</span>
+              <span>種類:</span>
               <img src={require('../../img/dropdown.jpg')} style={{ height: 40, marginLeft: 10 }} alt=""></img>
             </div>
             <div style={{ display: "flex", alignItems: "center", marginTop: 10 }}>
               <img src={require('../../img/zhang.jpg')} style={{ height: 40, marginRight: 10 }} alt=""></img>
-              <span>地区:</span>
+              <span>地區:</span>
               <img src={require('../../img/dropdown.jpg')} style={{ height: 40, marginLeft: 10 }} alt=""></img>
             </div>
 

@@ -3,8 +3,15 @@ import './DogInfo.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import { Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 function DogInfo() {
+  useTranslation();
+  async function connectWallet(){
+    if (typeof window.ethereum !== 'undefined') {
+      window.ethereum.enable();
+    }
+  }
   return (
     <div className='Container3'>
       <span className='Container3-title'>
@@ -20,9 +27,7 @@ function DogInfo() {
       </div>
       <div className='Container3-bottom'>
         <div className='Container3-rightArrow' />
-        <button className='Container3-button' onClick={() => {
-          window.location.href = "#"
-        }} />
+        <button onClick={connectWallet} className='Container3-button' />
         <div className='Container3-leftArrow' />
       </div>
     </div>
