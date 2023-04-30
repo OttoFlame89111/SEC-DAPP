@@ -10,8 +10,10 @@ import { HashRouter as Router, useRoutes } from "react-router-dom";
 const GetRoutes = () => {
   const routes = useRoutes([
     {
-      path: "/",
+      path: "",
       element: <Layout></Layout>,
+
+     
       children: [
         {
           path: "",
@@ -22,7 +24,7 @@ const GetRoutes = () => {
           element: <Owner></Owner>,
         },
         {
-          path: "/addpet",
+          path: "/e",
           element: <Addpet></Addpet>,
         },
       ],
