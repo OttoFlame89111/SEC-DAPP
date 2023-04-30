@@ -51,6 +51,8 @@ function Addpet(){
             ></div>
 
             <button type="button" onClick={() => setValue(getTheName,getTheSpecies,getTheImageURL)}>送出</button>
+
+            <button type="button" onClick={getValue}>取得資料</button>
             <div style={{marginTop: 200}}
             ></div>
 
