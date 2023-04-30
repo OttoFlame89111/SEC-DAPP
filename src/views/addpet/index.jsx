@@ -5,19 +5,12 @@ import abi from './abi.json';
 const contractAddress = '0xe76297Bfd415Bca7D29868283db6F70E638da1Ee'
 
 function Addpet(){
-  const [value, setTheValue] = useState('');
-  const [name, setTheName] = useState('');
-  const [species, setTheSpecies] = useState('');
-  const [imageURL, setTheImageURL] = useState('');
   
   async function getValue() {
     const provider = new ethers.providers.InfuraProvider('goerli');
     const contract = new ethers.Contract(contractAddress, abi, provider);
     const response = await contract.getUnadoptedPets();
-    //setTheValue(response.length-1);
-    console.log(response[response.length-1].name);
-    //console.log(response[1].name);
-    console.log(response);
+    console.log(response.toString());
   }
   
   async function setValue(name,species,imageURL) {
