@@ -24,6 +24,12 @@ class NavBar extends React.Component {
     }
   }
 
+  connectWallet() {
+    if (typeof window.ethereum !== 'undefined') {
+      window.ethereum.enable();
+    }
+  }
+
   render() {
     return (
       <div className="Container1">
@@ -48,7 +54,7 @@ class NavBar extends React.Component {
           </Container>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="" className="NavBar-Button6" />
+              <button onClick={this.connectWallet} className="NavBar-Button6"/>
               <button onClick={this.handleToggleClick} className='NavBar-Button7' />
             </Nav>
           </Navbar.Collapse>

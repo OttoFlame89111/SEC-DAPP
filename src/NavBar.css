@@ -96,6 +96,7 @@
   background-image: url("./img/NavButton6.png");
   width: 195px;
   height: 42px;
+  border: none;
 }
 
 .NavBar-Button7{
