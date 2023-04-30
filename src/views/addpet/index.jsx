@@ -14,9 +14,10 @@ function Addpet(){
     const provider = new ethers.providers.InfuraProvider('goerli');
     const contract = new ethers.Contract(contractAddress, abi, provider);
     const response = await contract.getUnadoptedPets();
-    setTheValue(response.length);
-    console.log(response);
+    //setTheValue(response.length-1);
+    console.log(response[response.length-1].name);
     //console.log(response[1].name);
+    console.log(response);
   }
   
   async function setValue(name,species,imageURL) {
@@ -50,7 +51,7 @@ function Addpet(){
             <div style={{marginTop: 50}}
             ></div>
 
-            <button type="button" onClick={() => setValue(getTheName,getTheSpecies,getTheImageURL)}>送出</button>
+            <button type="reset" onClick={() => setValue(getTheName,getTheSpecies,getTheImageURL)}>送出</button>
 
             <button type="button" onClick={getValue}>取得資料</button>
             <div style={{marginTop: 200}}
