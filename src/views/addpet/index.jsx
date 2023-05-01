@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ethers } from 'ethers';
 import abi from './abi.json';
 
-const contractAddress = '0xe76297Bfd415Bca7D29868283db6F70E638da1Ee'
+const contractAddress = '0xfe3fA47C914D4Da0a829925BB82fb8095221FD97'
+//const contractAddress = '0xe76297Bfd415Bca7D29868283db6F70E638da1Ee'
 
 function Addpet(){
   
@@ -10,7 +11,7 @@ function Addpet(){
     const provider = new ethers.providers.InfuraProvider('goerli');
     const contract = new ethers.Contract(contractAddress, abi, provider);
     const response = await contract.getUnadoptedPets();
-    console.log(response.toString());
+    console.log(response);
   }
   
   async function setValue(name,species,imageURL) {
