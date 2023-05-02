@@ -26,11 +26,25 @@ function Addpet(){
     }
   }
 
+  async function setAdoptPet(id) {
+    if (typeof window.ethereum !== 'undefined') {
+      await window.ethereum.enable();
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+      const contract = new ethers.Contract(contractAddress, abi, signer);
+      const tx = await contract.adoptPet(id);
+      await tx.wait();
+      getValue();
+    }
+  }
+
   let getTheName="";
   let getTheSpecies="";
   let getTheImageURL="";
+  let getTheId="";
 
     return(
+      <div>
         <form action="">
             <div style={{marginTop: 50}}
             ></div>
@@ -52,6 +66,18 @@ function Addpet(){
             ></div>
 
         </form>
+        <form>
+            id:<input type="text" onChange={e => getTheId=e.target.value} />
+            <div style={{marginTop: 50}}
+            ></div>
+
+            <button type="reset" onClick={() => setAdoptPet(getTheId)}>送出</button>
+
+            <button type="button" onClick={getValue}>取得資料</button>
+            <div style={{marginTop: 200}}
+            ></div>
+        </form>
+      </div>
     )
 }
 
