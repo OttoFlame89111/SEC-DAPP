@@ -2,7 +2,7 @@ import React from 'react';
 import { ethers } from 'ethers';
 import abi from './abi.json';
 
-const contractAddress = '0xe76297Bfd415Bca7D29868283db6F70E638da1Ee'
+const contractAddress = '0xf6271A9a7591EA7EF07044024F3c9A4556d12C91'
 //const contractAddress = '0xe76297Bfd415Bca7D29868283db6F70E638da1Ee'
 
 function Addpet(){
@@ -14,13 +14,13 @@ function Addpet(){
     console.log(response);
   }
   
-  async function setValue(name,species,imageURL) {
+  async function setValue(name,age,imageURL) {
     if (typeof window.ethereum !== 'undefined') {
       await window.ethereum.enable();
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const contract = new ethers.Contract(contractAddress, abi, signer);
-      const tx = await contract.addPet(name,species,imageURL);
+      const tx = await contract.addPet(name,age,imageURL);
       await tx.wait();
       getValue();
     }
@@ -39,7 +39,7 @@ function Addpet(){
   }
 
   let getTheName="";
-  let getTheSpecies="";
+  let getTheage="";
   let getTheImageURL="";
   let getTheId="";
 
@@ -51,7 +51,7 @@ function Addpet(){
             名字:<input type="text" onChange={e => getTheName=e.target.value} />
             <div style={{marginTop: 50}}
             ></div>
-            詳情介紹:<input type="text" onChange={e => getTheSpecies=e.target.value} />
+            年紀:<input type="text" onChange={e => getTheage=e.target.value} />
             <div style={{marginTop: 50}}
             ></div>
 
@@ -59,7 +59,7 @@ function Addpet(){
             <div style={{marginTop: 50}}
             ></div>
 
-            <button type="reset" onClick={() => setValue(getTheName,getTheSpecies,getTheImageURL)}>送出</button>
+            <button type="reset" onClick={() => setValue(getTheName,getTheage,getTheImageURL)}>送出</button>
 
             <button type="button" onClick={getValue}>取得資料</button>
             <div style={{marginTop: 200}}

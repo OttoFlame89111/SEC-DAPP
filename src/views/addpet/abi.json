@@ -8,7 +8,7 @@
 	  },
 	  {
 	   "internalType": "string",
-	   "name": "species",
+	   "name": "age",
 	   "type": "string"
 	  },
 	  {
@@ -72,7 +72,7 @@
 	  {
 	   "indexed": false,
 	   "internalType": "string",
-	   "name": "species",
+	   "name": "age",
 	   "type": "string"
 	  },
 	  {
@@ -148,7 +148,7 @@
 		},
 		{
 		 "internalType": "string",
-		 "name": "species",
+		 "name": "age",
 		 "type": "string"
 		},
 		{
@@ -188,7 +188,7 @@
 		},
 		{
 		 "internalType": "string",
-		 "name": "species",
+		 "name": "age",
 		 "type": "string"
 		},
 		{
