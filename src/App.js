@@ -3,9 +3,11 @@ import "./NavBar.css";
 import Home from "./views/home";
 import Owner from "./views/owner";
 import Addpet from "./views/addpet";
+import Ownerpet from "./views/ownerpet";
 import Layout from "./components/Layout";
 import { HashRouter as Router, useRoutes } from "react-router-dom";
-
+import 'antd/dist/reset.css';
+import "./index.css";
 
 const GetRoutes = () => {
   const routes = useRoutes([
@@ -13,7 +15,7 @@ const GetRoutes = () => {
       path: "",
       element: <Layout></Layout>,
 
-     
+
       children: [
         {
           path: "",
@@ -22,6 +24,10 @@ const GetRoutes = () => {
         {
           path: "/owner",
           element: <Owner></Owner>,
+        },
+        {
+          path: "/ownerpet",
+          element: <Ownerpet></Ownerpet>,
         },
         {
           path: "/e",

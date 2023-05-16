@@ -47,7 +47,7 @@ class NavBar extends React.Component {
                   <Trans i18nKey='description.navbar3' /></Link>
                 <Link className='NavBar-Button4' to={"/owner"}>
                   <Trans i18nKey='description.navbar4' /></Link>
-                <Link className='NavBar-Button3' to={"/owner"}>
+                <Link className='NavBar-Button3' to={"/ownerpet"}>
                   <Trans i18nKey='description.navbar5' /></Link>
               </Nav>
             </Navbar.Collapse>
