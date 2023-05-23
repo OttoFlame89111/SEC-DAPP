@@ -5,6 +5,8 @@ import Owner from "./views/owner";
 import Addpet from "./views/addpet";
 import Ownerpet from "./views/ownerpet";
 import Layout from "./components/Layout";
+import Create from "./views/create";
+import Update from "./views/update";
 import { HashRouter as Router, useRoutes } from "react-router-dom";
 import 'antd/dist/reset.css';
 import "./index.css";
@@ -32,6 +34,14 @@ const GetRoutes = () => {
         {
           path: "/e",
           element: <Addpet></Addpet>,
+        },
+        {
+          path: "/create",
+          element: <Create></Create>,
+        },
+        {
+          path: "/update",
+          element: <Update></Update>,
         },
       ],
     },
