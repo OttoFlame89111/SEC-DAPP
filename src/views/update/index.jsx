@@ -77,6 +77,7 @@ function Update(){
 
 	return(
 		<>
+		<img src={require('../../img/ownerbanner.jpg')} style={{ width: "100%" }} alt=""></img>
 			<h1>修改個人資料 </h1>
 			<h3>錢包地址:{walletAddress}</h3><br/>
 			<form action="">
@@ -86,6 +87,8 @@ function Update(){
 				 onChange={(e) => setNewEmail(e.target.value)} /><br/>
 				<input type="text" defaultValue={address}
 				 onChange={(e) => setNewAddress(e.target.value)} /><br/>
+				 <div style={{marginTop: 110}}
+            ></div>
 				<button type="submit"
 				onClick={UpdateSubmit}>修改</button>
 			</form>

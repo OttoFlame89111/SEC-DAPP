@@ -1,6 +1,7 @@
 import React from 'react';
 import { ethers } from 'ethers';
 import abi from './abi.json';
+import styles from "./index.module.css";
 
 const contractAddress = '0xf6271A9a7591EA7EF07044024F3c9A4556d12C91'
 //const contractAddress = '0xe76297Bfd415Bca7D29868283db6F70E638da1Ee'
@@ -44,18 +45,31 @@ function Addpet(){
   let getTheId="";
 
     return(
+      
+      
+      
       <div>
+         <img src={require('../../img/ownerbanner.jpg')} style={{ width: "100%" }} alt=""></img>
         <form action="">
             <div style={{marginTop: 50}}
             ></div>
-            名字:<input type="text" onChange={e => getTheName=e.target.value} />
+            <button className={styles["button"]}>
+            名字
+            </button>
+          <input type="text" onChange={e => getTheName=e.target.value} />
             <div style={{marginTop: 50}}
             ></div>
-            年紀:<input type="text" onChange={e => getTheage=e.target.value} />
+            <button className={styles["button"]}>
+            年紀
+            </button>
+            <input type="text" onChange={e => getTheage=e.target.value} />
             <div style={{marginTop: 50}}
             ></div>
 
-            圖片 URL:<input type="text" onChange={e => getTheImageURL=e.target.value} />
+            <button className={styles["button"]}>
+            圖片 URL
+            </button>
+            <input type="text" onChange={e => getTheImageURL=e.target.value} />
             <div style={{marginTop: 50}}
             ></div>
 
@@ -67,7 +81,11 @@ function Addpet(){
 
         </form>
         <form>
-            id:<input type="text" onChange={e => getTheId=e.target.value} />
+        
+        <button className={styles["button"]}>
+            ID
+            </button>
+            <input type="text" onChange={e => getTheId=e.target.value} />
             <div style={{marginTop: 50}}
             ></div>
 

@@ -41,13 +41,13 @@ class NavBar extends React.Component {
               <Nav className="me-auto Button-Container">
                 <Link className='NavBar-Button1' to={""}>
                   <Trans i18nKey='description.navbar1' /></Link>
-                <Link className='NavBar-Button2' to={"/create"}>
+                <Link className='NavBar-Button2' to={"/owner"}>
                   <Trans i18nKey='description.navbar2' /></Link>
-                <Link className='NavBar-Button3' to={"/owner"}>
-                  <Trans i18nKey='description.navbar3' /></Link>
-                <Link className='NavBar-Button4' to={"/update"}>
-                  <Trans i18nKey='description.navbar4' /></Link>
                 <Link className='NavBar-Button3' to={"/ownerpet"}>
+                  <Trans i18nKey='description.navbar3' /></Link>
+                <Link className='NavBar-Button4' to={"/create"}>
+                  <Trans i18nKey='description.navbar4' /></Link>
+                <Link className='NavBar-Button3' to={"/update"}>
                   <Trans i18nKey='description.navbar5' /></Link>
               </Nav>
             </Navbar.Collapse>

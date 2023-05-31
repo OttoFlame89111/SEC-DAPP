@@ -52,9 +52,10 @@ function Owner() {
           認養計畫
         </button>
         <div className={styles["f1"]}>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from
-          bomaking it. over o vears olde richard countock. a Latin protessor at hampsden-Sydney College in Virginia,
-          looked  up one of the more obscure Latin words,consectetur,from a Lorem Ipsum passage,and going througn the cites of the word in classical
+        促進狗狗的認養：提供一個平台，讓有意認養狗狗的人們能夠輕鬆尋找合適的狗狗並進行認養程序。
+照顧流浪狗狗：確保認養的狗狗能夠得到適當的照顧和愛護，提供必要的醫療和食物。
+宣導意識提升：透過宣傳和教育活動，提高公眾對流浪狗狗問題的關注和意識，鼓勵認養而非購買寵物。
+提供後續支持：為認養家庭提供相關的資源和指導，協助他們順利適應新成員，解決可能出現的問題。
         </div>
         <div style={{ display: "flex", marginTop: 30, flexWrap: "wrap" }}>
           <img alt="" style={{ width: "30%" }} src={require('../../img/left.jpg')}></img>

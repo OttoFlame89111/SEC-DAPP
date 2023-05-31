@@ -24,16 +24,12 @@ function ProductSpecial(){
 			<div className="Container5-bottom">
 				<div className="Container5-picture"></div>
 				<span className="Container5-text">
-				Lorern lpsum is simply dummy text of the printing and typeset-
-				ting industry. Lorern lpsum has been the industry's standard
-				dummy text ever since the 1500s, when an unknown printer
-				took a galley of type and scrambled it to make a type speci-
-				men book. It has survived not only five centuries, but also the
-				leap into electronic typesetting, remaining essentially un-
-				changed. It was popularised in the 1960s with the release of 
-				Letraset sheets containing Lorern lpsum passages, and more 
-				recently with desktop publishing software like Aldus Page-
-				Maker including versions of Lorern lpsum.
+				關注領養狗狗最新消息介紹
+				<td></td>
+
+歡迎加入我們的領養狗狗社群！我們致力於為流浪狗提供安全、溫暖和永久的家庭，並通過定期分享最新消息和資訊，讓您緊跟我們的領養活動。
+
+
 				</span>
 			</div>
 		</div>

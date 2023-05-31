@@ -53,6 +53,7 @@ function Create(){
 	}, []);
 	return (
 		<>
+		<img src={require('../../img/ownerbanner.jpg')} style={{ width: "100%" }} alt=""></img>
 			<h1>輸入個人資料 </h1>
 			<h3>錢包地址:{walletAddress}</h3><br/>
 			<form action="">
@@ -62,8 +63,11 @@ function Create(){
 				value={email} onChange={(e) => setEmail(e.target.value)} /><br/>
 				<input type="text" placeholder="地址"
 				value={address} onChange={(e) => setAddress(e.target.value)} /><br/>
+				<div style={{marginTop: 110}}
+            ></div>
 				<button type="submit"
 				onClick={handleOnSubmit}>送出</button>
+				
 			</form>
   
 		</>
